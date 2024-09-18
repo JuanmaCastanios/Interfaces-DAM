@@ -1,0 +1,15 @@
+C:\Grado\Interfaces-DAM\Eva_Inicial\obj\Debug\net7.0\Interfaces-DAM.csproj.AssemblyReference.cache
+C:\Grado\Interfaces-DAM\Eva_Inicial\obj\Debug\net7.0\Interfaces-DAM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Grado\Interfaces-DAM\Eva_Inicial\obj\Debug\net7.0\Interfaces-DAM.AssemblyInfoInputs.cache
+C:\Grado\Interfaces-DAM\Eva_Inicial\obj\Debug\net7.0\Interfaces-DAM.AssemblyInfo.cs
+C:\Grado\Interfaces-DAM\Eva_Inicial\obj\Debug\net7.0\Interfaces-DAM.csproj.CoreCompileInputs.cache
+C:\Grado\Interfaces-DAM\Eva_Inicial\bin\Debug\net7.0\Interfaces-DAM.exe
+C:\Grado\Interfaces-DAM\Eva_Inicial\bin\Debug\net7.0\Interfaces-DAM.deps.json
+C:\Grado\Interfaces-DAM\Eva_Inicial\bin\Debug\net7.0\Interfaces-DAM.runtimeconfig.json
+C:\Grado\Interfaces-DAM\Eva_Inicial\bin\Debug\net7.0\Interfaces-DAM.dll
+C:\Grado\Interfaces-DAM\Eva_Inicial\bin\Debug\net7.0\Interfaces-DAM.pdb
+C:\Grado\Interfaces-DAM\Eva_Inicial\obj\Debug\net7.0\Interfaces-DAM.dll
+C:\Grado\Interfaces-DAM\Eva_Inicial\obj\Debug\net7.0\refint\Interfaces-DAM.dll
+C:\Grado\Interfaces-DAM\Eva_Inicial\obj\Debug\net7.0\Interfaces-DAM.pdb
+C:\Grado\Interfaces-DAM\Eva_Inicial\obj\Debug\net7.0\Interfaces-DAM.genruntimeconfig.cache
+C:\Grado\Interfaces-DAM\Eva_Inicial\obj\Debug\net7.0\ref\Interfaces-DAM.dll
