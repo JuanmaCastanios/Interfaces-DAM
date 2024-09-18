@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X590bY0YpNfJJunQJKqWB0iw29Az9QV4phggdHuVt2rjImSAxhQ0C8qLX7Qok+AxBcn+Bz49mPeg3k23RuqE+A==",
+  "dgSpecHash": "22P9mPytMi59HPS2djL4OwbetMn6qKbx6Spq88alRHgQFF9LWHQxwDFg7z/emIaDAMi5tYrDafDA7tRd8rbxJg==",
   "success": true,
-  "projectFilePath": "C:\\Grado\\DI\\Ejemplo1\\Ejemplo1.csproj",
+  "projectFilePath": "C:\\Grado\\Interfaces-DAM\\Ejemplo1\\Ejemplo1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

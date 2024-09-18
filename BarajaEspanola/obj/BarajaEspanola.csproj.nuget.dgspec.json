@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Grado\\Interfaces-DAM\\Ejemplo1\\Ejemplo1.csproj": {}
+    "C:\\Grado\\Interfaces-DAM\\BarajaEspanola\\BarajaEspanola.csproj": {}
   },
   "projects": {
-    "C:\\Grado\\Interfaces-DAM\\Ejemplo1\\Ejemplo1.csproj": {
+    "C:\\Grado\\Interfaces-DAM\\BarajaEspanola\\BarajaEspanola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Grado\\Interfaces-DAM\\Ejemplo1\\Ejemplo1.csproj",
-        "projectName": "Ejemplo1",
-        "projectPath": "C:\\Grado\\Interfaces-DAM\\Ejemplo1\\Ejemplo1.csproj",
+        "projectUniqueName": "C:\\Grado\\Interfaces-DAM\\BarajaEspanola\\BarajaEspanola.csproj",
+        "projectName": "BarajaEspanola",
+        "projectPath": "C:\\Grado\\Interfaces-DAM\\BarajaEspanola\\BarajaEspanola.csproj",
         "packagesPath": "C:\\Users\\bladiaju\\.nuget\\packages\\",
-        "outputPath": "C:\\Grado\\Interfaces-DAM\\Ejemplo1\\obj\\",
+        "outputPath": "C:\\Grado\\Interfaces-DAM\\BarajaEspanola\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
