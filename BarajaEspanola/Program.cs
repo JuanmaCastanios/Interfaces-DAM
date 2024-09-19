@@ -25,7 +25,7 @@ for (int i = 1; i <= jugadores; i++)
     {
         int num = random.Next(0, cartas.Count);
         Console.WriteLine(cartas[num]);
-        cartas.Remove(num);
+        cartas.RemoveAt(num);
     }
     Console.WriteLine();
 }
