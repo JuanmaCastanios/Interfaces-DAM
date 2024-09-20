@@ -11,12 +11,13 @@ foreach (string palo in palos)
     {
         string carta = $"{valor} de {palo}";
         cartas.Add(carta);
-        Console.WriteLine(carta);   
+        Console.WriteLine(carta);  
+         
     }
     Console.WriteLine();
 }
 
-cartas = cartas.OrderBy(x => random.Next()).ToList();
+cartas = cartas.OrderBy(x => random.Next(0, cartas.Count)).ToList();
 
 for (int i = 1; i <= jugadores; i++)
 {
