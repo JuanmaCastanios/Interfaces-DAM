@@ -1,0 +1,15 @@
+C:\Grado\Interfaces-DAM\BarajaEspanola\obj\Debug\net7.0\BarajaEspanola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Grado\Interfaces-DAM\BarajaEspanola\obj\Debug\net7.0\BarajaEspanola.AssemblyInfoInputs.cache
+C:\Grado\Interfaces-DAM\BarajaEspanola\obj\Debug\net7.0\BarajaEspanola.AssemblyInfo.cs
+C:\Grado\Interfaces-DAM\BarajaEspanola\obj\Debug\net7.0\BarajaEspanola.csproj.CoreCompileInputs.cache
+C:\Grado\Interfaces-DAM\BarajaEspanola\bin\Debug\net7.0\BarajaEspanola.exe
+C:\Grado\Interfaces-DAM\BarajaEspanola\bin\Debug\net7.0\BarajaEspanola.deps.json
+C:\Grado\Interfaces-DAM\BarajaEspanola\bin\Debug\net7.0\BarajaEspanola.runtimeconfig.json
+C:\Grado\Interfaces-DAM\BarajaEspanola\bin\Debug\net7.0\BarajaEspanola.dll
+C:\Grado\Interfaces-DAM\BarajaEspanola\bin\Debug\net7.0\BarajaEspanola.pdb
+C:\Grado\Interfaces-DAM\BarajaEspanola\obj\Debug\net7.0\BarajaEspanola.dll
+C:\Grado\Interfaces-DAM\BarajaEspanola\obj\Debug\net7.0\refint\BarajaEspanola.dll
+C:\Grado\Interfaces-DAM\BarajaEspanola\obj\Debug\net7.0\BarajaEspanola.pdb
+C:\Grado\Interfaces-DAM\BarajaEspanola\obj\Debug\net7.0\BarajaEspanola.genruntimeconfig.cache
+C:\Grado\Interfaces-DAM\BarajaEspanola\obj\Debug\net7.0\ref\BarajaEspanola.dll
+C:\Grado\Interfaces-DAM\BarajaEspanola\obj\Debug\net7.0\BarajaEspanola.sourcelink.json
