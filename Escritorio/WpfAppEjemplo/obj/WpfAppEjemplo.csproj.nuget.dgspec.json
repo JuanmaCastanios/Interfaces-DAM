@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\Grado\\Interfaces-DAM\\Escritorio\\WpfAppEjemplo\\WpfAppEjemplo.csproj",
         "projectName": "WpfAppEjemplo",
         "projectPath": "C:\\Grado\\Interfaces-DAM\\Escritorio\\WpfAppEjemplo\\WpfAppEjemplo.csproj",
-        "packagesPath": "C:\\Users\\bladiaju\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Grado\\Interfaces-DAM\\Escritorio\\WpfAppEjemplo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bladiaju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
