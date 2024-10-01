@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfAppEjemplo"
         mc:Ignorable="d"
         Title="Mi primera App WPF" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="grid1">
         <Grid.RowDefinitions>
             <RowDefinition Height="7*"/>
             <RowDefinition Height="*"/>
@@ -23,6 +23,14 @@
             Margin="5"
             Background="#FF0FB8D8"
             Click="Button_Click"
+            />
+        <ListBox x:Name="lbElementos"
+                 Grid.Row="0" Grid.Column="1"
+                 Background="LightGreen"
+            />
+        <Button x:Name="boton1"
+            Grid.Row="1" Grid.Column="1"
+            Background="Red"
             />
     </Grid>
 </Window>

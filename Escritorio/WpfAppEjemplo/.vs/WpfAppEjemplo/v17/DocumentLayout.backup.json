@@ -22,7 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 3,
+>>>>>>> 2803dafecd471ee41d5d723a0d981d4bbc384ca6
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,10 +37,13 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
+<<<<<<< HEAD
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+=======
+>>>>>>> 2803dafecd471ee41d5d723a0d981d4bbc384ca6
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "App.xaml",
@@ -55,7 +62,11 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\WpfAppEjemplo\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAIAAAAAAAAAAAAiwA0AAAARAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAABkAAAAAAAAAAADwvxwAAAAMAAAAAAAAAA==",
+>>>>>>> 2803dafecd471ee41d5d723a0d981d4bbc384ca6
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T10:54:57.666Z",
               "EditorCaption": ""
@@ -69,7 +80,12 @@
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\WpfAppEjemplo\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+<<<<<<< HEAD
               "WhenOpened": "2024-09-24T10:54:56.52Z"
+=======
+              "WhenOpened": "2024-09-24T10:54:56.52Z",
+              "EditorCaption": ""
+>>>>>>> 2803dafecd471ee41d5d723a0d981d4bbc384ca6
             }
           ]
         }
