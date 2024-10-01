@@ -6,8 +6,7 @@
         xmlns:local="clr-namespace:Ejercicio3_MasterMind"
         mc:Ignorable="d"
         Title="Master Mind"
-        Height="333" Width="327" 
-        MinWidth="327" MinHeight="333">
+        Height="333" Width="327">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="124*" />
