@@ -1,14 +1,116 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "Emoji.Wpf/0.3.4": {
+        "type": "package",
+        "dependencies": {
+          "JeremyAnsel.HLSL.Targets": "1.0.13",
+          "Stfu": "0.1.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Emoji.Wpf.dll": {},
+          "lib/netcoreapp3.1/Typography.GlyphLayout.dll": {},
+          "lib/netcoreapp3.1/Typography.OpenFont.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Emoji.Wpf.dll": {},
+          "lib/netcoreapp3.1/Typography.GlyphLayout.dll": {},
+          "lib/netcoreapp3.1/Typography.OpenFont.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "JeremyAnsel.HLSL.Targets/1.0.13": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Stfu/0.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Stfu.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Stfu.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Emoji.Wpf/0.3.4": {
+      "sha512": "3ouEfw6Mo5Czk0TJd4BWrElB21jK9lKWqB1ZZF1DEBDRLNmOvJJbT51/ELLMIyqyn4p/mh10XC9Kmqmb1IbmnQ==",
+      "type": "package",
+      "path": "emoji.wpf/0.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "emoji.wpf.0.3.4.nupkg.sha512",
+        "emoji.wpf.nuspec",
+        "icon.png",
+        "lib/net40/Emoji.Wpf.dll",
+        "lib/net40/Typography.GlyphLayout.dll",
+        "lib/net40/Typography.OpenFont.dll",
+        "lib/netcoreapp3.1/Emoji.Wpf.dll",
+        "lib/netcoreapp3.1/Typography.GlyphLayout.dll",
+        "lib/netcoreapp3.1/Typography.OpenFont.dll"
+      ]
+    },
+    "JeremyAnsel.HLSL.Targets/1.0.13": {
+      "sha512": "uLfE1STTM/o8G2eWEtQWMHm91nO47BIEsjXhO3c6hvsjx+bInTA7LnqI9iAWUWr58Sug+NSoNNZT83i2mWMl7g==",
+      "type": "package",
+      "path": "jeremyansel.hlsl.targets/1.0.13",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/JeremyAnsel.HLSL.Targets.targets",
+        "build/JeremyAnsel.HLSL.Targets.xml",
+        "jeremyansel.hlsl.targets.1.0.13.nupkg.sha512",
+        "jeremyansel.hlsl.targets.nuspec",
+        "tools/net472/JeremyAnsel.DirectX.D3DCompiler.dll",
+        "tools/net472/JeremyAnsel.HLSL.Targets.dll",
+        "tools/net472/Microsoft.Build.Framework.dll",
+        "tools/net472/Microsoft.Build.Utilities.Core.dll",
+        "tools/net472/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/netstandard2.0/JeremyAnsel.DirectX.D3DCompiler.dll",
+        "tools/netstandard2.0/JeremyAnsel.HLSL.Targets.dll",
+        "tools/netstandard2.0/Microsoft.Build.Framework.dll",
+        "tools/netstandard2.0/Microsoft.Build.Utilities.Core.dll",
+        "tools/netstandard2.0/System.Collections.Immutable.dll",
+        "tools/netstandard2.0/System.Runtime.Serialization.Primitives.dll",
+        "tools/netstandard2.0/System.Threading.Thread.dll",
+        "tools/netstandard2.0/System.Threading.dll"
+      ]
+    },
+    "Stfu/0.1.1": {
+      "sha512": "wUd0joqQoZ1B/wULKx1gGTY9zxiDbsW3Y6W0G0guCTL/jRMdDBPr9FMHfkoOKB0JIYGlup3NqXrsqs8fPrCdrw==",
+      "type": "package",
+      "path": "stfu/0.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Stfu.dll",
+        "lib/netcoreapp3.1/Stfu.dll",
+        "stfu.0.1.1.nupkg.sha512",
+        "stfu.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "Emoji.Wpf >= 0.3.4"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\usuario\\.nuget\\packages\\": {},
+    "C:\\Users\\bladiaju\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -17,14 +119,14 @@
       "projectUniqueName": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio3_MasterMind\\Ejercicio3_MasterMind.csproj",
       "projectName": "Ejercicio3_MasterMind",
       "projectPath": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio3_MasterMind\\Ejercicio3_MasterMind.csproj",
-      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\bladiaju\\.nuget\\packages\\",
       "outputPath": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio3_MasterMind\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bladiaju\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +135,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -55,6 +158,12 @@
     "frameworks": {
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Emoji.Wpf": {
+            "target": "Package",
+            "version": "[0.3.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

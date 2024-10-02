@@ -5,7 +5,59 @@
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v8.0": {}
+    ".NETCoreApp,Version=v8.0": {
+      "Emoji.Wpf/0.3.4": {
+        "dependencies": {
+          "JeremyAnsel.HLSL.Targets": "1.0.13",
+          "Stfu": "0.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Emoji.Wpf.dll": {
+            "assemblyVersion": "0.3.4.0",
+            "fileVersion": "0.3.4.0"
+          },
+          "lib/netcoreapp3.1/Typography.GlyphLayout.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netcoreapp3.1/Typography.OpenFont.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "JeremyAnsel.HLSL.Targets/1.0.13": {},
+      "Stfu/0.1.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/Stfu.dll": {
+            "assemblyVersion": "0.1.1.0",
+            "fileVersion": "0.1.1.0"
+          }
+        }
+      }
+    }
   },
-  "libraries": {}
+  "libraries": {
+    "Emoji.Wpf/0.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3ouEfw6Mo5Czk0TJd4BWrElB21jK9lKWqB1ZZF1DEBDRLNmOvJJbT51/ELLMIyqyn4p/mh10XC9Kmqmb1IbmnQ==",
+      "path": "emoji.wpf/0.3.4",
+      "hashPath": "emoji.wpf.0.3.4.nupkg.sha512"
+    },
+    "JeremyAnsel.HLSL.Targets/1.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uLfE1STTM/o8G2eWEtQWMHm91nO47BIEsjXhO3c6hvsjx+bInTA7LnqI9iAWUWr58Sug+NSoNNZT83i2mWMl7g==",
+      "path": "jeremyansel.hlsl.targets/1.0.13",
+      "hashPath": "jeremyansel.hlsl.targets.1.0.13.nupkg.sha512"
+    },
+    "Stfu/0.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wUd0joqQoZ1B/wULKx1gGTY9zxiDbsW3Y6W0G0guCTL/jRMdDBPr9FMHfkoOKB0JIYGlup3NqXrsqs8fPrCdrw==",
+      "path": "stfu/0.1.1",
+      "hashPath": "stfu.0.1.1.nupkg.sha512"
+    }
+  }
 }

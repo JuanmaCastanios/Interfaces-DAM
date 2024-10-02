@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio3_MasterMind")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0288885646b241996f3e7b44aed14c7dc572327d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1f892dc60e1c67c6c4cc1431d058b493b456dd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ejercicio3_MasterMind")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio3_MasterMind")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
