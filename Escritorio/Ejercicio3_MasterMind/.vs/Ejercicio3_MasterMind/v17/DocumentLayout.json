@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio3_MasterMind\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96C69232-7C05-4053-938B-B4882A5C2B7E}|Ejercicio3_MasterMind.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicio3_mastermind\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C69232-7C05-4053-938B-B4882A5C2B7E}|Ejercicio3_MasterMind.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96C69232-7C05-4053-938B-B4882A5C2B7E}|Ejercicio3_MasterMind.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicio3_mastermind\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{96C69232-7C05-4053-938B-B4882A5C2B7E}|Ejercicio3_MasterMind.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C69232-7C05-4053-938B-B4882A5C2B7E}|Ejercicio3_MasterMind.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicio3_mastermind\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C69232-7C05-4053-938B-B4882A5C2B7E}|Ejercicio3_MasterMind.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio3_MasterMind\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio3_MasterMind\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAABQAAAAAAAAAAAAYwBoAAAAvAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowBoAAAAvAAAAAAAAAA==",
+>>>>>>> 6f30923a84c8fb7f0a1ecb3bdcd6607c6e70b8e1
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T10:51:22.522Z",
               "IsPinned": true,
@@ -36,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio3_MasterMind\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -49,10 +53,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Bookmark",

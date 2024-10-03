@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LuS9ts2Ttis=",
+  "dgSpecHash": "VuD0ZMJtoE0=",
   "success": true,
   "projectFilePath": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio3_MasterMind\\Ejercicio3_MasterMind.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bladiaju\\.nuget\\packages\\emoji.wpf\\0.3.4\\emoji.wpf.0.3.4.nupkg.sha512",
+    "C:\\Users\\bladiaju\\.nuget\\packages\\jeremyansel.hlsl.targets\\1.0.13\\jeremyansel.hlsl.targets.1.0.13.nupkg.sha512",
+    "C:\\Users\\bladiaju\\.nuget\\packages\\stfu\\0.1.1\\stfu.0.1.1.nupkg.sha512"
+  ],
   "logs": []
 }
