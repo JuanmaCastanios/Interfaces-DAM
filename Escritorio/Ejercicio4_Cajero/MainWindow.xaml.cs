@@ -44,35 +44,43 @@ namespace Ejercicio4_Cajero
             bool continuar = true;
             while (continuar)
             {
-                if(num - 200 >= 0)
+                if (num%10 != 0)
                 {
-                    numBilletes[0]++;
-                    num -= 200;
-                }
-                else if (num - 100 >= 0)
-                {
-                    numBilletes[1]++;
-                    num -= 100;
-                }
-                else if (num - 50 >= 0)
-                {
-                    numBilletes[2]++;
-                    num -= 50;
-                }
-                else if (num - 20 >= 0)
-                {
-                    numBilletes[3]++;
-                    num -= 20;
-                }
-                else if (num - 10 >= 0)
-                {
-                    numBilletes[4]++;
-                    num -= 10;
-                }
-                else if(num == 0)
-                {
+                    listBoxResultado.Items.Add("Cantidad no válida");
                     continuar = false;
                 }
+                else if(num - 200 >= 0 && billetes[0] > 0)
+                {
+                    numBilletes[0]++;
+                    billetes[0]--;
+                    num -= 200;
+                }
+                else if (num - 100 >= 0 && billetes[1] > 0)
+                {
+                    numBilletes[1]++;
+                    billetes[1]--;
+                    num -= 100;
+                }
+                else if (num - 50 >= 0 && billetes[2] > 0)
+                {
+                    numBilletes[2]++;
+                    billetes[2]--;
+                    num -= 50;
+                }
+                else if (num - 20 >= 0 && billetes[3] > 0)
+                {
+                    numBilletes[3]++;
+                    billetes[3]--;
+                    num -= 20;
+                }
+                else if (num - 10 >= 0 && billetes[4] > 0)
+                {
+                    numBilletes[4]++;
+                    billetes[4]--;
+                    num -= 10;
+                }
+                else if (num <= 0)
+                    continuar = false;
             }
         }
 
@@ -85,7 +93,7 @@ namespace Ejercicio4_Cajero
                 pinEnmascarado += "*";
                 textBlockDisplay.Text = "Introduzca su PIN: " + pinEnmascarado;
             }
-            else
+            else if(pinCorrecto)
             {
                 cantidadSacar += botonSeleccionado.Content.ToString();
                 textBlockDisplay.Text = "Introduzca Cantidad: " + cantidadSacar;
@@ -93,8 +101,18 @@ namespace Ejercicio4_Cajero
         }
         
         private void botonBorrar_Click(Object sender, RoutedEventArgs e)
-        {          
-
+        {
+            if (pinCorrecto)
+            {
+                textBlockDisplay.Text = "Introduzca Cantidad: ";
+                cantidadSacar = "";
+            }
+            else
+            {
+                textBlockDisplay.Text = "Introduzca su PIN: ";
+                pin = "";
+                pinEnmascarado = "";
+            }
         }
 
         private void botonOk_Click(Object sender, RoutedEventArgs e)
@@ -103,30 +121,15 @@ namespace Ejercicio4_Cajero
             {
                 Calcular_Billetes();
                 if (numBilletes[0] != 0)
-                {
                     listBoxResultado.Items.Add(numBilletes[0] + " de 200€");
-                    billetes[0] -= numBilletes[0];
-                }
                 if (numBilletes[1] != 0)
-                {
                     listBoxResultado.Items.Add(numBilletes[1] + " de 100€");
-                    billetes[1] -= numBilletes[1];
-                }
                 if (numBilletes[2] != 0)
-                {
                     listBoxResultado.Items.Add(numBilletes[2] + " de 50€");
-                    billetes[2] -= numBilletes[2];
-                }
                 if (numBilletes[3] != 0)
-                {
                     listBoxResultado.Items.Add(numBilletes[3] + " de 20€");
-                    billetes[3] -= numBilletes[3];
-                }
                 if (numBilletes[4] != 0)
-                {
                     listBoxResultado.Items.Add(numBilletes[4] + " de 10€");
-                    billetes[4] -= numBilletes[4];
-                }
                 lbBilletes.Items.Clear();
                 foreach (var billete in billetes)
                 {
@@ -150,11 +153,11 @@ namespace Ejercicio4_Cajero
         private void botonRecoger_Click(Object sender, RoutedEventArgs e)
         {
             pin = "";
+            pinEnmascarado = "";
             cantidadSacar = "";
             listBoxResultado.Items.Clear ();
             pinCorrecto = false;
             textBlockDisplay.Text = "Introduzca su PIN: ";
-            pinEnmascarado = "";
             for (int i = 0; i < numBilletes.Length;i++)
             {
                 numBilletes[i] = 0;
