@@ -1,0 +1,4 @@
+C:\Grado\Interfaces-DAM\Escritorio\Ejercicio5_Deposito\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Grado\Interfaces-DAM\Escritorio\Ejercicio5_Deposito\obj\Debug\net8.0-windows\App.g.cs
+C:\Grado\Interfaces-DAM\Escritorio\Ejercicio5_Deposito\obj\Debug\net8.0-windows\Ejercicio5_Deposito_MarkupCompile.cache
+C:\Grado\Interfaces-DAM\Escritorio\Ejercicio5_Deposito\obj\Debug\net8.0-windows\Ejercicio5_Deposito_MarkupCompile.lref
