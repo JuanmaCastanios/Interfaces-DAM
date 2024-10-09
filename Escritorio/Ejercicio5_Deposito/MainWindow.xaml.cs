@@ -16,9 +16,21 @@ namespace Ejercicio5_Deposito
     /// </summary>
     public partial class MainWindow : Window
     {
+        Deposito deposito = new();
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void botonBeber_Click(object sender, RoutedEventArgs e)
+        {
+            deposito.Cantidad--;
+        }
+
+        private void botonLlenar_Click(object sender, RoutedEventArgs e)
+        {
+            deposito.Llenar(10);
+            botonBeber.IsEnabled = true;
         }
     }
 }

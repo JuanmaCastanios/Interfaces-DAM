@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ejercicio6_Caldera/1.0.0": {
+        "runtime": {
+          "Ejercicio6_Caldera.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejercicio6_Caldera/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
