@@ -21,42 +21,54 @@ public class Caldera
 		}
 		set
 		{ 
-			if(value >= 0 && value < 99)
-			valorCaldera = value;
-			else if (value == 99)
-			{
+			
+				valorCaldera = value;
+			if (value == 99)
 				CalderaMaximo?.Invoke(this, EventArgs.Empty);
-			}
 		}
 	}
 
 
 	private string estado;
 
+
 	public string Estado
-	{
-		get
-		{
-			return estado;
-		}
+    {
+		get { return estado; }
 		set
 		{
-			if(valorCaldera < 60)
-			{
-				estado = "Verde";
-			} 
-			else if (valorCaldera >= 60 && valorCaldera <80)
-			{
-                estado = "Amarillo";
+			estado = value;
+            if (valorCaldera == 59 && estado == "Alerta")
+            {
+                estado = "Correcto";
+                ActualizarCaldera?.Invoke(this, EventArgs.Empty);
             }
-			else
-			{
-				estado = "Rojo";
-			}
-		}
+            else if ((valorCaldera == 60 && estado == "Correcto") || (valorCaldera == 79 && estado == "Peligro"))
+            {
+                estado = "Alerta";
+                ActualizarCaldera?.Invoke(this, EventArgs.Empty);
+            }
+            else if(valorCaldera == 80 && estado == "Alerta")
+            {
+                estado = "Peligro";
+                ActualizarCaldera?.Invoke(this, EventArgs.Empty);
+            }
+        }
 	}
 
 
+	private DateTime tiempo;
 
+    public int Tiempo { get; set; }
+    public string mostrarEstado()
+	{
+		string info = "";
+
+        tiempo = DateTime.Now;
+
+		info = "\t" + estado + "\t" + tiempo.ToString("HH:mm:ss");
+
+		return info;
+	}
 
 }

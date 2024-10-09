@@ -20,24 +20,45 @@ namespace Ejercicio6_Caldera
         public MainWindow()
         {
             InitializeComponent();
+            slider1.Maximum = 99;
+            lbInforme.Items.Add("Inicio " + DateTime.Now.ToString("HH:mm:ss"));
+            caldera.Estado = "Correcto";
             caldera.ActualizarCaldera += Caldera_ActualizarCaldera;
             caldera.CalderaMaximo += Caldera_CalderaMaximo;
+            txtbTemperatura.Text = caldera.ValorCaldera.ToString();
         }
 
 
         private void Caldera_ActualizarCaldera(object sender, EventArgs e)
         {
+            lbInforme.Items.Add(caldera.mostrarEstado());
+            if (caldera.Estado.Equals("Correcto"))
+            {
+                txtbTemperatura.Background = new SolidColorBrush(Colors.Green);
+            }
+            else if (caldera.Estado.Equals("Alerta"))
+            {
+                txtbTemperatura.Background = new SolidColorBrush(Colors.Yellow);
+            }
+            else if (caldera.Estado.Equals("Peligro"))
+            {
+                txtbTemperatura.Background = new SolidColorBrush(Colors.Red);
+            }
 
         }
 
         private void Caldera_CalderaMaximo(object sender, EventArgs e)
         {
-
+            slider1.IsEnabled = false;
+            lbInforme.Items.Add("Fin " + DateTime.Now.ToString("HH:mm:ss"));
         }
 
         private void slider1_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-
+            caldera.ValorCaldera = (int)slider1.Value;
+            caldera.Estado = caldera.Estado;
+            txtbTemperatura.Text = caldera.ValorCaldera.ToString();
+            
         }
     }
 }
