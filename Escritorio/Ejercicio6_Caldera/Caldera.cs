@@ -38,17 +38,17 @@ public class Caldera
 		set
 		{
 			estado = value;
-            if (valorCaldera == 59 && estado == "Alerta")
+            if (valorCaldera == 59 && estado == "Alerta\t")
             {
                 estado = "Correcto";
                 ActualizarCaldera?.Invoke(this, EventArgs.Empty);
             }
             else if ((valorCaldera == 60 && estado == "Correcto") || (valorCaldera == 79 && estado == "Peligro"))
             {
-                estado = "Alerta";
+                estado = "Alerta\t";
                 ActualizarCaldera?.Invoke(this, EventArgs.Empty);
             }
-            else if(valorCaldera == 80 && estado == "Alerta")
+            else if(valorCaldera == 80 && estado == "Alerta\t")
             {
                 estado = "Peligro";
                 ActualizarCaldera?.Invoke(this, EventArgs.Empty);

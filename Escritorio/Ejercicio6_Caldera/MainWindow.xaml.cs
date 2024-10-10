@@ -36,7 +36,7 @@ namespace Ejercicio6_Caldera
             {
                 txtbTemperatura.Background = new SolidColorBrush(Colors.Green);
             }
-            else if (caldera.Estado.Equals("Alerta"))
+            else if (caldera.Estado.Equals("Alerta\t"))
             {
                 txtbTemperatura.Background = new SolidColorBrush(Colors.Yellow);
             }
