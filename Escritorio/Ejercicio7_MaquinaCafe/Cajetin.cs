@@ -6,12 +6,12 @@ public class Cajetin
 	{
 	}
 
-    private double[] monedasValidas = { 2.0, 1.0, 0.5, 0.2, 0.1 };
+    private double[] monedasValidas = {2.0, 1.0, 0.5, 0.2};
 
 	public event EventHandler TotalChange;
     public event EventHandler MonedaNoValida;
 
-    private double total;
+    private double total = 0.0;
 	public double Total
 	{
 		get { return total; }
@@ -28,17 +28,28 @@ public class Cajetin
 
 	public void Acumular(double moneda)
 	{
-
+		if (monedasValidas.Contains(moneda))
+		{
+			total += moneda;
+            TotalChange?.Invoke(this, new EventArgs());
+        } else
+		{
+            MonedaNoValida?.Invoke(this, new EventArgs());
+        }
 	}
 
-    public bool Dispensar()
+    public bool Dispensar(Producto p)
 	{
+		if (total >= p.Precio)
+		{
+			return true;
+		}
 		return false;
 	}
 
-    public double Devolver()
+	public double Devolver(Producto p)
 	{
-		return 0.0;
+		return total - p.Precio;
 	}
 
 	public void Iniciar()

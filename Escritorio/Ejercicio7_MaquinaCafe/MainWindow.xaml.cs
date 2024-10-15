@@ -37,17 +37,52 @@ namespace Ejercicio7_MaquinaCafe
                 b.Click += Moneda_Click;
                 spMonedas.Children.Add(b);
             }
+            cajetin.TotalChange += TotalChange_Click;
+            cajetin.MonedaNoValida += MoneadaNoValida_Click;
+            tbDispensador.MouseEnter += tbDispensador_Recoger;
+        }
+
+        //Método para recoger el producto cuando pasas por encima el ratón
+        private void tbDispensador_Recoger(object sender, MouseEventArgs e)
+        {
+            tbDispensador.Text = "";
+            tbDisplay.Text = "";
+            tbVuelta.Text = "";
+            cajetin.Iniciar();
+        }
+
+        private void MoneadaNoValida_Click(object? sender, EventArgs e)
+        {
+            tbDisplay.Text = "";
+            tbVuelta.Text = cajetin.Total.ToString()+"€";
+            cajetin.Iniciar();
+        }
+
+        private void TotalChange_Click(object? sender, EventArgs e)
+        {
+            tbVuelta.Text = "";
+            tbDisplay.Text = cajetin.Total.ToString() + "€";
         }
 
         private void Moneda_Click(object sender, RoutedEventArgs e)
         {
-            cajetin.Acumular((double)(sender as Button).Content);
-
+            cajetin.Acumular(Double.Parse((sender as Button).Content.ToString()));
         }
 
         private void Producto_Click(object sender, RoutedEventArgs e)
         {
-            
+            Producto p = null;
+            for (int i = 0; i < listaProductos.Length; i++)
+            {
+                if(listaProductos[i].Nombre.Equals((sender as Button).Content.ToString())){
+                    p = listaProductos[i];
+                }
+            }
+            if (cajetin.Dispensar(p))
+            {
+                tbDispensador.Text = p.Nombre;
+                tbVuelta.Text = cajetin.Devolver(p).ToString()+"€";
+            }
         }
     }
 }
