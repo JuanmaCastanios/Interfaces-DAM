@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio2_Palabras2")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio7_MaquinaCafe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b9fda392346b8c22d5abb252394e68528881fc9")]
-[assembly: System.Reflection.AssemblyProductAttribute("Ejercicio2_Palabras2")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio2_Palabras2")]
+[assembly: System.Reflection.AssemblyProductAttribute("Ejercicio7_MaquinaCafe")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio7_MaquinaCafe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio7_MaquinaCafe", "Ejercicio7_MaquinaCafe.csproj", "{B3F2E0E9-EF43-4FBF-A085-B411E2355C2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{6FFDACDD-CBD5-4CDD-B8F6-3E37366EC34B}"
+	ProjectSection(SolutionItems) = preProject
+		Cajetin.cs = Cajetin.cs
+		Producto.cs = Producto.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3F2E0E9-EF43-4FBF-A085-B411E2355C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F2E0E9-EF43-4FBF-A085-B411E2355C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F2E0E9-EF43-4FBF-A085-B411E2355C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F2E0E9-EF43-4FBF-A085-B411E2355C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3124DBA-238B-4F21-837D-8A3CF1F11822}
+	EndGlobalSection
+EndGlobal
