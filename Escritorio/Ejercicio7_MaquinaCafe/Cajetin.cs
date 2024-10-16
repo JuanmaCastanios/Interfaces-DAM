@@ -2,48 +2,60 @@
 
 public class Cajetin
 {
-	public Cajetin()
-	{
-	}
+    public Cajetin()
+    {
+    }
 
-    private double[] monedasValidas = { 2.0, 1.0, 0.5, 0.2, 0.1 };
+    private double[] monedasValidas = { 2.0, 1.0, 0.5, 0.2 };
 
-	public event EventHandler TotalChange;
+    public event EventHandler TotalChange;
     public event EventHandler MonedaNoValida;
 
-    private double total;
-	public double Total
-	{
-		get { return total; }
-		set { total = value; }
-	}
-
-
-	private double vuelta;
-	public double Vuelta
+    private double total = 0.0;
+    public double Total
     {
-		get { return vuelta; }
-		set { vuelta = value; }
-	}
+        get { return total; }
+        set { total = value; }
+    }
 
-	public void Acumular(double moneda)
-	{
 
-	}
+    private double vuelta;
+    public double Vuelta
+    {
+        get { return vuelta; }
+        set { vuelta = value; }
+    }
 
-    public bool Dispensar()
-	{
-		return false;
-	}
+    public void Acumular(double moneda)
+    {
+        if (monedasValidas.Contains(moneda))
+        {
+            total += moneda;
+            TotalChange?.Invoke(this, new EventArgs());
+        }
+        else
+        {
+            MonedaNoValida?.Invoke(this, new EventArgs());
+        }
+    }
 
-    public double Devolver()
-	{
-		return 0.0;
-	}
+    public bool Dispensar(Producto p)
+    {
+        if (total >= p.Precio)
+        {
+            return true;
+        }
+        return false;
+    }
 
-	public void Iniciar()
-	{
-		total = 0;
-	}
+    public double Devolver(Producto p)
+    {
+        return total - p.Precio;
+    }
+
+    public void Iniciar()
+    {
+        total = 0;
+    }
 
 }
