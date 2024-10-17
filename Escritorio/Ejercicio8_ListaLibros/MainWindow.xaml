@@ -1,0 +1,34 @@
+﻿<Window x:Class="Ejercicio8_ListaLibros.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio8_ListaLibros"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListView Name="lvResultados" Background="LightGreen">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ISBN" Width="Auto"
+                                    DisplayMemberBinding="{Binding ISBN}" />
+                    <GridViewColumn Header="Título" Width="Auto"
+                                    DisplayMemberBinding="{Binding Titulo}" />
+                    <GridViewColumn Header="Autor" Width="Auto"
+                                    DisplayMemberBinding="{Binding Autor}" />
+                    <GridViewColumn Header="Precio" Width="Auto"
+                                    DisplayMemberBinding="{Binding Precio,StringFormat={}{0:C},ConverterCulture=es-ES}" />
+                </GridView>
+            </ListView.View>
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock FontWeight="Bold" FontSize="14" Text="{Binding Name}"/>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListView.GroupStyle>
+        </ListView>
+    </Grid>
+</Window>

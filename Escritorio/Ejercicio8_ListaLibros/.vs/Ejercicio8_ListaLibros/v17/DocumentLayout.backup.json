@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio8_ListaLibros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6DB3F4-A2D5-4846-85B6-656B63AF2BCD}|Ejercicio8_ListaLibros.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicio8_listalibros\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B6DB3F4-A2D5-4846-85B6-656B63AF2BCD}|Ejercicio8_ListaLibros.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6DB3F4-A2D5-4846-85B6-656B63AF2BCD}|Ejercicio8_ListaLibros.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicio8_listalibros\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B6DB3F4-A2D5-4846-85B6-656B63AF2BCD}|Ejercicio8_ListaLibros.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6DB3F4-A2D5-4846-85B6-656B63AF2BCD}|Ejercicio8_ListaLibros.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicio8_listalibros\\libros.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2B6DB3F4-A2D5-4846-85B6-656B63AF2BCD}|Ejercicio8_ListaLibros.csproj|solutionrelative:libros.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Libros.csv",
+              "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio8_ListaLibros\\Libros.csv",
+              "RelativeDocumentMoniker": "Libros.csv",
+              "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio8_ListaLibros\\Libros.csv",
+              "RelativeToolTip": "Libros.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-10-17T09:39:05.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio8_ListaLibros\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio8_ListaLibros\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T08:46:41.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio8_ListaLibros\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio8_ListaLibros\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:46:41.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
