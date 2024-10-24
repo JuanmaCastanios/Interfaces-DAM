@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio6_Caldera")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b32da0826ef535c7afe57b7f9d303fdf61a7546")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+403add8d1e23d16010e031d1bd212ed14e75fe4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ejercicio6_Caldera")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio6_Caldera")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
