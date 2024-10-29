@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio8_ListaLibros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c80433f7ee2bd75959eb7641f8419ef9f0aa8480")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+403add8d1e23d16010e031d1bd212ed14e75fe4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ejercicio8_ListaLibros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio8_ListaLibros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

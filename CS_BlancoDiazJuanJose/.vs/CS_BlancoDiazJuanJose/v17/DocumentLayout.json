@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{122E8D00-E53A-4AAB-A8B7-275EA549C856}|CS_BlancoDiazJuanJose.csproj|c:\\grado\\interfaces-dam\\cs_blancodiazjuanjose\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{122E8D00-E53A-4AAB-A8B7-275EA549C856}|CS_BlancoDiazJuanJose.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9F4210-4E85-4DE4-853E-F3DBBE00E426}|Elementos de la soluci\u00F3n{2D9F4210-4E85-4DE4-853E-F3DBBE00E426}|C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\TipoSurtidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9F4210-4E85-4DE4-853E-F3DBBE00E426}|Elementos de la soluci\u00F3n{2D9F4210-4E85-4DE4-853E-F3DBBE00E426}|solutionrelative:TipoSurtidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{122E8D00-E53A-4AAB-A8B7-275EA549C856}|CS_BlancoDiazJuanJose.csproj|c:\\grado\\interfaces-dam\\cs_blancodiazjuanjose\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{122E8D00-E53A-4AAB-A8B7-275EA549C856}|CS_BlancoDiazJuanJose.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-24T08:03:03.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:03:03.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TipoSurtidor.cs",
+              "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\TipoSurtidor.cs",
+              "RelativeDocumentMoniker": "TipoSurtidor.cs",
+              "ToolTip": "C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\TipoSurtidor.cs",
+              "RelativeToolTip": "TipoSurtidor.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwCoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:13:24.302Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

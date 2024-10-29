@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioXAML1_GridConInkCanvas", "EjercicioXAML1_GridConInkCanvas.csproj", "{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D1309B7-827D-413A-BF98-54D8CC839F1E}
+	EndGlobalSection
+EndGlobal

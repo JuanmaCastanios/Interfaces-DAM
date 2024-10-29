@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button Name="bResultado" Margin="324,339,324,54"></Button>
+        <TextBlock Name="tbResultado" Margin="133,25,133,217"></TextBlock>
     </Grid>
 </Window>

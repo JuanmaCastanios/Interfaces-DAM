@@ -74,15 +74,26 @@ namespace Ejercicio7_MaquinaCafe
             Producto p = null;
             for (int i = 0; i < listaProductos.Length; i++)
             {
+<<<<<<< HEAD
                 if (listaProductos[i].Nombre.Equals((sender as Button).Content.ToString()))
                 {
+=======
+
+                if(listaProductos[i].Nombre.Equals((sender as Button).Content.ToString())){
+>>>>>>> origin/main
                     p = listaProductos[i];
                 }
             }
             if (cajetin.Dispensar(p))
             {
                 tbDispensador.Text = p.Nombre;
+<<<<<<< HEAD
                 tbVuelta.Text = cajetin.Devolver(p).ToString() + "€";
+=======
+
+                tbVuelta.Text = cajetin.Devolver(p).ToString() + "€";
+
+>>>>>>> origin/main
             }
         }
     }

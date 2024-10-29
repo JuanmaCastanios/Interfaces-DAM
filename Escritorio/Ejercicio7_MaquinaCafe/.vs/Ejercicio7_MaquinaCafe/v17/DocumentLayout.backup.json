@@ -8,12 +8,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{6FFDACDD-CBD5-4CDD-B8F6-3E37366EC34B}|Elementos de la soluci\u00F3n{6FFDACDD-CBD5-4CDD-B8F6-3E37366EC34B}|C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio7_MaquinaCafe\\Cajetin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FFDACDD-CBD5-4CDD-B8F6-3E37366EC34B}|Elementos de la soluci\u00F3n{6FFDACDD-CBD5-4CDD-B8F6-3E37366EC34B}|solutionrelative:Cajetin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 =======
       "AbsoluteMoniker": "D:0:0:{B3F2E0E9-EF43-4FBF-A085-B411E2355C2E}|Ejercicio7_MaquinaCafe.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicio7_maquinacafe\\cajetin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3F2E0E9-EF43-4FBF-A085-B411E2355C2E}|Ejercicio7_MaquinaCafe.csproj|solutionrelative:cajetin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> 8b44d26b3eef63c10e3eebca47d738ee2d8457d3
+=======
+      "AbsoluteMoniker": "D:0:0:{6FFDACDD-CBD5-4CDD-B8F6-3E37366EC34B}|Elementos de la soluci\u00F3n{6FFDACDD-CBD5-4CDD-B8F6-3E37366EC34B}|C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio7_MaquinaCafe\\Cajetin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFDACDD-CBD5-4CDD-B8F6-3E37366EC34B}|Elementos de la soluci\u00F3n{6FFDACDD-CBD5-4CDD-B8F6-3E37366EC34B}|solutionrelative:Cajetin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> origin/main
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3F2E0E9-EF43-4FBF-A085-B411E2355C2E}|Ejercicio7_MaquinaCafe.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicio7_maquinacafe\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -35,10 +40,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
@@ -50,10 +51,14 @@
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio7_MaquinaCafe\\Cajetin.cs",
               "RelativeToolTip": "Cajetin.cs",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "ViewState": "AgIAABgAAAAAAAAAAAAgwCYAAAAJAAAAAAAAAA==",
 =======
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAOAAAAAAAAAA==",
 >>>>>>> 8b44d26b3eef63c10e3eebca47d738ee2d8457d3
+=======
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAARAAAAAAAAAA==",
+>>>>>>> origin/main
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T10:34:13.81Z",
               "EditorCaption": ""
@@ -67,10 +72,14 @@
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio7_MaquinaCafe\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "ViewState": "AgIAAEIAAAAAAAAAAAAywE0AAAARAAAAAAAAAA==",
 =======
               "ViewState": "AgIAABwAAAAAAAAAAAAQwCwAAABKAAAAAAAAAA==",
 >>>>>>> 8b44d26b3eef63c10e3eebca47d738ee2d8457d3
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
+>>>>>>> origin/main
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T10:28:22.859Z",
               "EditorCaption": ""
@@ -84,8 +93,7 @@
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\Ejercicio7_MaquinaCafe\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-15T10:28:25.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T10:28:25.475Z"
             }
           ]
         }
