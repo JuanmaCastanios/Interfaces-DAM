@@ -61,6 +61,7 @@ namespace Ejercicio2_Palabras2
                 bLetras.Padding = new Thickness(3);
                 bLetras.Click += BLetras_Click;
                 spBotones.Children.Add(bLetras);
+                
             }
         }
         private int cont = 0;

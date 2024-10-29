@@ -54,11 +54,7 @@ namespace Ejercicio7_MaquinaCafe
         private void MoneadaNoValida_Click(object? sender, EventArgs e)
         {
             tbDisplay.Text = "";
-<<<<<<< HEAD
             tbVuelta.Text = cajetin.Total.ToString() + "€";
-=======
-            tbVuelta.Text = cajetin.Total.ToString()+"€";
->>>>>>> 8b44d26b3eef63c10e3eebca47d738ee2d8457d3
             cajetin.Iniciar();
         }
 
@@ -78,23 +74,15 @@ namespace Ejercicio7_MaquinaCafe
             Producto p = null;
             for (int i = 0; i < listaProductos.Length; i++)
             {
-<<<<<<< HEAD
                 if (listaProductos[i].Nombre.Equals((sender as Button).Content.ToString()))
                 {
-=======
-                if(listaProductos[i].Nombre.Equals((sender as Button).Content.ToString())){
->>>>>>> 8b44d26b3eef63c10e3eebca47d738ee2d8457d3
                     p = listaProductos[i];
                 }
             }
             if (cajetin.Dispensar(p))
             {
                 tbDispensador.Text = p.Nombre;
-<<<<<<< HEAD
                 tbVuelta.Text = cajetin.Devolver(p).ToString() + "€";
-=======
-                tbVuelta.Text = cajetin.Devolver(p).ToString()+"€";
->>>>>>> 8b44d26b3eef63c10e3eebca47d738ee2d8457d3
             }
         }
     }
