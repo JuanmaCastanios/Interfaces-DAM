@@ -16,6 +16,17 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <InkCanvas Grid.Column="0" Grid.Row="0"/>
+        <InkCanvas Name="miInkCanvas" Grid.Column="0" Grid.Row="0" Margin="10" StrokeCollected="InkCanvas_PreviewMouseDown">
+            <InkCanvas.Background>
+                <ImageBrush ImageSource="/paisaje.jpeg" />
+            </InkCanvas.Background>
+        </InkCanvas>
+        <Rectangle Fill="Yellow" Grid.Column="0" Grid.Row="1" Margin="10"/>
+        <Rectangle Fill="red" Grid.Column="1" Grid.Row="0" Margin="10"/>
+        <Rectangle Fill="LightPink" Grid.Column="1" Grid.Row="1" Margin="10"/>
+        <Rectangle Fill="Beige" Grid.Column="2" Grid.RowSpan="2" Margin="10"/>
+        <Label Content="hola amigos" Grid.Column="2" Grid.RowSpan="2"
+               VerticalAlignment="Center"/>
+        
     </Grid>
 </Window>

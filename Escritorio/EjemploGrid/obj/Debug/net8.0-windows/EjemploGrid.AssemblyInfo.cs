@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EjemploGrid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5b9a8ea666daa4ecef25efcfb34faac06930a2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0555102d594903d7e7dd383ca27b1b5517c0b87f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EjemploGrid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EjemploGrid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

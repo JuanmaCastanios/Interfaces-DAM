@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioXAML1_GridConInkCanvas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}|EjercicioXAML1_GridConInkCanvas.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicioxaml1_gridconinkcanvas\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}|EjercicioXAML1_GridConInkCanvas.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}|EjercicioXAML1_GridConInkCanvas.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicioxaml1_gridconinkcanvas\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}|EjercicioXAML1_GridConInkCanvas.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}|EjercicioXAML1_GridConInkCanvas.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejercicioxaml1_gridconinkcanvas\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8474D9A4-A728-4A14-BC44-C4CDD507FBBD}|EjercicioXAML1_GridConInkCanvas.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +26,19 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioXAML1_GridConInkCanvas\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -46,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioXAML1_GridConInkCanvas\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioXAML1_GridConInkCanvas\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T12:44:41.344Z",
               "EditorCaption": ""
