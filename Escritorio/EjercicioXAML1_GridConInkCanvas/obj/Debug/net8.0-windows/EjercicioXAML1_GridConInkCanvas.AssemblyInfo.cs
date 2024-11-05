@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EjercicioXAML1_GridConInkCanvas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0555102d594903d7e7dd383ca27b1b5517c0b87f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb6d5ddd81b92d245f2b60e218174f35576bab88")]
 [assembly: System.Reflection.AssemblyProductAttribute("EjercicioXAML1_GridConInkCanvas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EjercicioXAML1_GridConInkCanvas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

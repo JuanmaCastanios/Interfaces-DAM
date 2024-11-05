@@ -22,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
             },
             {
               "$type": "Bookmark",
@@ -41,8 +45,7 @@
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-24T08:03:03.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T08:03:03.89Z"
             },
             {
               "$type": "Document",
@@ -52,7 +55,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwBgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T08:03:03.775Z",
               "EditorCaption": ""
@@ -65,7 +68,7 @@
               "RelativeDocumentMoniker": "TipoSurtidor.cs",
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\CS_BlancoDiazJuanJose\\TipoSurtidor.cs",
               "RelativeToolTip": "TipoSurtidor.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAcwCoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T08:13:24.302Z",
               "EditorCaption": ""

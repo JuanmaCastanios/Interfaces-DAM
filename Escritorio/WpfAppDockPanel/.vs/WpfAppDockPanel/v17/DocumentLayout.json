@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Grado\\Interfaces-DAM\\Escritorio\\WpfAppDockPanel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93B8E765-9C46-4E8D-8F17-A8F75FEB3C1E}|WpfAppDockPanel\\WpfAppDockPanel.csproj|c:\\grado\\interfaces-dam\\escritorio\\wpfappdockpanel\\wpfappdockpanel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93B8E765-9C46-4E8D-8F17-A8F75FEB3C1E}|WpfAppDockPanel\\WpfAppDockPanel.csproj|solutionrelative:wpfappdockpanel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B8E765-9C46-4E8D-8F17-A8F75FEB3C1E}|WpfAppDockPanel\\WpfAppDockPanel.csproj|c:\\grado\\interfaces-dam\\escritorio\\wpfappdockpanel\\wpfappdockpanel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B8E765-9C46-4E8D-8F17-A8F75FEB3C1E}|WpfAppDockPanel\\WpfAppDockPanel.csproj|solutionrelative:wpfappdockpanel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\WpfAppDockPanel\\WpfAppDockPanel\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfAppDockPanel\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\WpfAppDockPanel\\WpfAppDockPanel\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfAppDockPanel\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:46:45.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\WpfAppDockPanel\\WpfAppDockPanel\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfAppDockPanel\\MainWindow.xaml",
+              "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\WpfAppDockPanel\\WpfAppDockPanel\\MainWindow.xaml",
+              "RelativeToolTip": "WpfAppDockPanel\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T11:46:39.474Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

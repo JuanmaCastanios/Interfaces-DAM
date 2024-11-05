@@ -1,0 +1,9 @@
+﻿<Application x:Class="EjercicioXAML2_ContenedoresGridStackPanelWrapPanel.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EjercicioXAML2_ContenedoresGridStackPanelWrapPanel"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
