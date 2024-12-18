@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EjercicioMAUI_PrimeraPagina</name>
+    </assembly>
+    <members>
+        <member name="T:EjercicioMAUI_PrimeraPagina.ServicioModelView">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:EjercicioMAUI_PrimeraPagina.ServicioModelView.siguienteCommand">
+            <summary>The backing field for <see cref="P:EjercicioMAUI_PrimeraPagina.ServicioModelView.SiguienteCommand"/>.</summary>
+        </member>
+        <member name="P:EjercicioMAUI_PrimeraPagina.ServicioModelView.SiguienteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:EjercicioMAUI_PrimeraPagina.ServicioModelView.Siguiente"/>.</summary>
+        </member>
+        <member name="F:EjercicioMAUI_PrimeraPagina.ServicioModelView.anteriorCommand">
+            <summary>The backing field for <see cref="P:EjercicioMAUI_PrimeraPagina.ServicioModelView.AnteriorCommand"/>.</summary>
+        </member>
+        <member name="P:EjercicioMAUI_PrimeraPagina.ServicioModelView.AnteriorCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:EjercicioMAUI_PrimeraPagina.ServicioModelView.Anterior"/>.</summary>
+        </member>
+    </members>
+</doc>
