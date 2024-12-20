@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioMAUI_PrimeraPagina\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A090258-0EF6-40A3-8EED-650EA161F4BF}|EjercicioMAUI_PrimeraPagina.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejerciciomaui_primerapagina\\serviciomodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A090258-0EF6-40A3-8EED-650EA161F4BF}|EjercicioMAUI_PrimeraPagina.csproj|solutionrelative:serviciomodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A090258-0EF6-40A3-8EED-650EA161F4BF}|EjercicioMAUI_PrimeraPagina.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejerciciomaui_primerapagina\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A090258-0EF6-40A3-8EED-650EA161F4BF}|EjercicioMAUI_PrimeraPagina.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A090258-0EF6-40A3-8EED-650EA161F4BF}|EjercicioMAUI_PrimeraPagina.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejerciciomaui_primerapagina\\ejerciciomaui_primerapagina.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A090258-0EF6-40A3-8EED-650EA161F4BF}|EjercicioMAUI_PrimeraPagina.csproj|solutionrelative:ejerciciomaui_primerapagina.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A090258-0EF6-40A3-8EED-650EA161F4BF}|EjercicioMAUI_PrimeraPagina.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejerciciomaui_primerapagina\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3A090258-0EF6-40A3-8EED-650EA161F4BF}|EjercicioMAUI_PrimeraPagina.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A090258-0EF6-40A3-8EED-650EA161F4BF}|EjercicioMAUI_PrimeraPagina.csproj|c:\\grado\\interfaces-dam\\escritorio\\ejerciciomaui_primerapagina\\serviciomodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A090258-0EF6-40A3-8EED-650EA161F4BF}|EjercicioMAUI_PrimeraPagina.csproj|solutionrelative:serviciomodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,27 +63,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioMAUI_PrimeraPagina\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioMAUI_PrimeraPagina\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-12-19T09:39:52.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EjercicioMAUI_PrimeraPagina",
+              "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioMAUI_PrimeraPagina\\EjercicioMAUI_PrimeraPagina.csproj",
+              "RelativeDocumentMoniker": "EjercicioMAUI_PrimeraPagina.csproj",
+              "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioMAUI_PrimeraPagina\\EjercicioMAUI_PrimeraPagina.csproj",
+              "RelativeToolTip": "EjercicioMAUI_PrimeraPagina.csproj",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T09:30:13.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ServicioModelView.cs",
               "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioMAUI_PrimeraPagina\\ServicioModelView.cs",
               "RelativeDocumentMoniker": "ServicioModelView.cs",
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioMAUI_PrimeraPagina\\ServicioModelView.cs",
               "RelativeToolTip": "ServicioModelView.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T07:51:00.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioMAUI_PrimeraPagina\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Grado\\Interfaces-DAM\\Escritorio\\EjercicioMAUI_PrimeraPagina\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvykAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAhwBQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-11T07:52:38.824Z"
+              "WhenOpened": "2024-12-11T07:52:38.824Z",
+              "EditorCaption": ""
             }
           ]
         }

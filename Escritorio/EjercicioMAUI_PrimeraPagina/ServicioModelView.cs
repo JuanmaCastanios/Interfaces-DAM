@@ -12,8 +12,8 @@ namespace EjercicioMAUI_PrimeraPagina
     internal partial class ServicioModelView
     {
         private ObservableCollection<Restaurante> restaurantes;
-        [ObservableProperty]
-        private Restaurante? currentRestaurante;
+
+        public Restaurante currentRestaurante;
         public String Posicion { get; set; }
         public int Indice { get; set; }
 
